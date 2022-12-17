@@ -1,0 +1,23 @@
+{
+  "name": "gitlocal",
+  "version": "1.0.0",
+  "description": "I am Alexander R. Dee\r 38 Years old\r Currently working at Pedro Guevara Memorial National High School\r with position as Administrative Aide IV assigned in the Principal's Office as Clerk.\r My hobbies are listening to music, playing musical instruments, watching movies.\r My goal for this year is to be a web developer.\r The reason why I want to be a web developer is to broaden my career and have a nice opportunity to work remotely and at the same time have a high salary.",
+  "main": "bmiCalculator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexanderDee/My-Refocus-Assignments.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexanderDee/My-Refocus-Assignments/issues"
+  },
+  "homepage": "https://github.com/AlexanderDee/My-Refocus-Assignments#readme",
+  "dependencies": {
+    "jest": "^29.3.1"
+  }
+}
