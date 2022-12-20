@@ -8,7 +8,6 @@ function inputHeightAndWeight(h,w){
     console.log(`Height: ${h} inches\r\nWeight: ${w} pounds`);
     let BMI = ((w/(h*h))*703) //formula for body mass index in US units
     console.log(`Your BMI: ${BMI}`);
-
     
     if(BMI > 40){
         console.log("Morbidly Obese");
@@ -27,4 +26,23 @@ function inputHeightAndWeight(h,w){
     }
 }
 
-inputHeightAndWeight(69,154.32)
+function testBMI(){
+    let h = 66;
+    let w = 154.32;
+    let bmi = ((w/(h*h))*703);
+
+    const result = bmi;
+    const expected = 24.90517906336088;
+
+    console.assert(
+        result === expected,
+        `The result ${result} doesn't match the expected value ${expected}.`
+    )
+
+}
+
+inputHeightAndWeight(66,154.32)
+testBMI();
+
+
+
